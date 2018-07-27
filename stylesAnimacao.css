@@ -1,0 +1,11 @@
+.quadrado {
+    width: 100px;
+    height: 100px;
+    background: #000;
+    animation: sumindo 1s alternate infinite linear;
+  }
+  
+  @keyframes sumindo {
+    0%   {opacity:0;};
+    100% {opacity:1;};
+  }
